@@ -7,7 +7,7 @@ describe("My Store", () => {
 
         cy.visit(testUrl);
 
-        cy.get("#email_create").type("joseph.r777777772203@gmail.com");
+        cy.get("#email_create").type("joseph.ribeiro.santos@gmail.com");
         
         cy.get("#SubmitCreate").click();
 
